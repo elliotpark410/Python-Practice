@@ -1,7 +1,9 @@
 
 # Single line comment
 letter = 'P'                # A string could be a single character or a bunch of texts
+print("letter")
 print(letter)               # P
+print('len(letter)')
 print(len(letter))          # 1
 greeting = 'Hello, World!'  # String could be  a single or double quote,"Hello, World!"
 print(greeting)             # Hello, World!
@@ -32,12 +34,12 @@ print(len(last_name))   # 7
 print(len(first_name) > len(last_name)) # True
 print(len(full_name)) # 15
 
-#### Unpacking characters 
+#### Unpacking characters
 language = 'Python'
 a,b,c,d,e,f = language # unpacking sequence characters into variables
 print(a) # P
 print(b) # y
-print(c) # t 
+print(c) # t
 print(d) # h
 print(e) # o
 print(f) # n
@@ -73,7 +75,7 @@ print(last_three)   # hon
 
 # Skipping character while splitting Python strings
 language = 'Python'
-pto = language[0:6:2] # 
+pto = language[0:6:2] #
 print(pto) # pto
 
 # Escape sequence
@@ -117,7 +119,7 @@ challenge = 'thirty days of python'
 print(challenge.find('y'))  # 5
 print(challenge.find('th')) # 0
 
-# format()	formats string into nicer output    
+# format()	formats string into nicer output
 first_name = 'Asabeneh'
 last_name = 'Yetayeh'
 job = 'teacher'
@@ -168,7 +170,7 @@ print(challenge.find('th')) # 0
 challenge = 'Thirty'
 print(challenge.isdigit()) # False
 challenge = '30'
-print(challenge.digit())   # True
+print(challenge.isdigit())   # True
 
 # isdecimal():Checks decimal characters
 
@@ -234,7 +236,7 @@ challenge = 'thirty days of python'
 print(challenge.title()) # Thirty Days Of Python
 
 # swapcase(): Checks if String Starts with the Specified String
-  
+
 challenge = 'thirty days of python'
 print(challenge.swapcase())   # THIRTY DAYS OF PYTHON
 challenge = 'Thirty Days Of Python'
