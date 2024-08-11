@@ -1,6 +1,6 @@
 
 # Variables in Python
-
+# no declaration of types
 first_name = 'Asabeneh'
 last_name = 'Yetayeh'
 country = 'Finland'
@@ -9,8 +9,8 @@ age = 250
 is_married = True
 skills = ['HTML', 'CSS', 'JS', 'React', 'Python']
 person_info = {
-    'firstname':'Asabeneh', 
-    'lastname':'Yetayeh', 
+    'firstname':'Asabeneh',
+    'lastname':'Yetayeh',
     'country':'Finland',
     'city':'Helsinki'
     }
